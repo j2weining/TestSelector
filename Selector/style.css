@@ -9,14 +9,16 @@ h1{
     margin-right: 30%;
     border: blueviolet;
 }
+
 * {
     font-family: Arial;
-}
+} /*Universal selector*/
 
 .title h1{
     color:salmon;
     font-style: italic;
-}
+} /*Child selector*/
+
 p{
     text-align: center;
     color: cornflowerblue;
