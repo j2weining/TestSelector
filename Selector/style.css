@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: teal;
+}
+
+#table{
+    background-color: violet;
+    margin-left: 30%;
+    margin-right: 30%;
+    border:red;
+}
+* {
+    font-family: Arial;
+}
+.title h1{
+    color:salmon;
+}
