@@ -4,14 +4,20 @@ h1{
 }
 
 #table{
-    background-color: violet;
+    background-color:lightgreen;
     margin-left: 30%;
     margin-right: 30%;
-    border:red;
+    border: blueviolet;
 }
 * {
     font-family: Arial;
 }
+
 .title h1{
     color:salmon;
+    font-style: italic;
+}
+p{
+    text-align: center;
+    color: cornflowerblue;
 }
