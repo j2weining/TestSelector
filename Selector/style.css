@@ -27,7 +27,7 @@ body{
 div p{
     text-align: center;
     color:crimson;
-}
+} /*Decendant selector*/
 
 p{
     text-align: center;
@@ -36,9 +36,9 @@ p{
 div ~ h2{
     color: darkmagenta;
     text-align: center;
-}
+} /*Sibling selector*/
 
 div + h2{
     color: darkorange;
     text-align: center;
-}
+} /*Sibling selector*/
