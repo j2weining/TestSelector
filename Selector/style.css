@@ -3,6 +3,10 @@ h1{
     color: teal;
 }
 
+body{
+    background-color:lightblue;
+}
+
 #table{
     background-color:lightgreen;
     margin-left: 30%;
@@ -17,9 +21,24 @@ h1{
 .title h1{
     color:salmon;
     font-style: italic;
+    background-color: darkslateblue;
 } /*Child selector*/
+
+div p{
+    text-align: center;
+    color:crimson;
+}
 
 p{
     text-align: center;
-    color: cornflowerblue;
+}
+
+div ~ h2{
+    color: darkmagenta;
+    text-align: center;
+}
+
+div + h2{
+    color: darkorange;
+    text-align: center;
 }
